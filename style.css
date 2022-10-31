@@ -35,7 +35,7 @@ nav{
 	left: 0;
 	width:100%;
 	box-sizing: border-box;
-	padding: 10px 50px;
+	padding: 10px 150px;
 	background-color:#17d1ac;
 	box-shadow:2px 2px 12px #0000000d; 
 	z-index: 1;
@@ -58,6 +58,10 @@ nav{
 	font-weight: bold;
 	color:#292929;
 	font-family:Poppins;
+	height: 2px;
+	margin-left: -540px;
+	margin-top: -60px;
+	scale: 0.1;
 }
 .toggle{
 	display: none;
@@ -72,7 +76,7 @@ nav{
 
 .name{
 	font-family: calibri;
-	width: 500px;
+	width: 400px;
 	position: absolute;
 	left: 45%;
 	top: 50%;
@@ -107,32 +111,39 @@ nav{
  
 .social{
 	position: absolute;
-	left: 50px;
-	bottom: 50px;
+	left: 42%;
+	bottom: 10px;
 	display: flex;
+	height: 10%;
+	scale: 0.5;
+	/* justify: center; */
+	/* letter-spacing: 6px; */
  
+}
+
+.gmail{
+	/* margin-left: 100px; */
 }
 .social a{
 	margin: 6px 12px;
  
 }
-.social i{
-	color:rgba(18,17,17,0.40);
-	font-size: 14px;
-}
+
 .social a:hover i{
 	color:#5a149c;
 	transition: all ease 0.5s;
 }
 
 .profile-img{
-    height: 1000px;
-    width: 400px;
-    border-radius: 100px;
-    /* display:; */
-    padding-top: 100px;
+    height: 400px;
+    width: 350px;
+    display:  flex;
+    margin-top: 120px;
+	margin-left: 50px;
+	/* border: 2px solid wheat; */
 
 }
+
 
 #about{
 	width:100%;
@@ -140,14 +151,17 @@ nav{
 	background-color:#161616;
 	box-sizing: border-box;
 	display: flex;
+	flex-direction: row-reverse;
 	align-items: center;
 	justify-content: space-between;
-	padding: 50px 5% 0px 5%;
+	padding: 50px 5% 10px 5%;
 	position: relative;
 }
 .about-text{
 	font-family: calibri;
-	width: 50%;
+	width: 40%;
+	padding-left: 1%;
+	
 }
 .about-text h1{
 	font-size: 5rem;
